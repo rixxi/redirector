@@ -18,6 +18,8 @@ trait EnableRedirector
 
 	protected function beforeRender()
 	{
+		parent::beforeRender();
+
 		$this->redirector->performRedirectIfNecessary($this);
 	}
 
