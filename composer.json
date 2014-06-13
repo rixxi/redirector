@@ -18,7 +18,8 @@
 	"autoload": {
 		"psr-0": {
 			"Rixxi\\Application\\UI\\": "src/",
-			"Rixxi\\Redirector\\": "src/"
+			"Rixxi\\Redirector\\": "src/",
+			"Rixxi\\Bridges\\": "src/"
 		}
 	}
 }
