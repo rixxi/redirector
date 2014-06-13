@@ -12,12 +12,12 @@
 		"issues": "https://github.com/rixxi/redirector"
 	},
 	"require": {
-        "php": ">=5.3.1",
+		"php": ">=5.3.1",
 		"nette/nette": "~2.0"
 	},
 	"autoload": {
 		"psr-0": {
-            "Rixxi\\Application\\UI\\": "src/",
+			"Rixxi\\Application\\UI\\": "src/",
 			"Rixxi\\Redirector\\": "src/"
 		}
 	}
